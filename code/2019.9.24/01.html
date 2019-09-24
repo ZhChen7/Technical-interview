@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .box {
+            width: 20em;
+            height: 10em;
+            border: 1px solid red;
+            overflow: hidden;
+
+        }
+        .list {
+            height: 100%;
+            background: #ddd;
+            text-align: center;
+            position: relative;
+        }
+        .list > input {
+            position: absolute; top:0;
+            height: 100%; width: 1px;
+            border:0; padding: 0; margin: 0;
+            clip: rect(0 0 0 0);
+        }
+    </style>
+</head>
+
+<body>
+<div class="box">
+    <input class="list" id="one" readonly>1</input>
+    <input class="list" id="two" readonly>2</input>
+    <input class="list" id="three" readonly>3</input>
+    <input class="list" id="four" readonly>4</input>
+
+</div>
+<div class="link">
+    <label class="click" for="one">1</label>
+    <label class="click" for="two">2</label>
+    <label class="click" for="three">3</label>
+    <label class="click" for="four">4</label>
+</div>
+
+
+</body>
+</html>
