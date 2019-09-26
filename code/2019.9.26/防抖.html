@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="text">
+<script>
+    let input= document.getElementsByTagName('input')[0]
+    function say(){
+        console.log('防抖成功！')
+    }
+
+    // function debounce(fn,delay){
+    //     let timeout=null
+    //     return function () {
+    //         clearTimeout(timeout)
+    //        timeout= setTimeout(function () {
+    //                 fn.apply(this.arguments)
+    //         },delay)
+    //     }
+    // }
+
+    function throttle(fn,delay){
+        let CanRun=true
+        return function () {
+
+            if (!CanRun) return
+            CanRun =false
+
+            setTimeout(function () {
+                fn.apply(this,arguments)
+                CanRun =true
+            },delay)
+        }
+    }
+
+
+
+    input.addEventListener('input',throttle(say,500))
+
+</script>
+</body>
+</html>
