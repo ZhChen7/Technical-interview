@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="topAnchor"></div>
+<ul>
+    <li>1*100</li>
+    <li>2*100</li>
+    <li>3*100</li>
+    <li>4*100</li>
+    <li>5*100</li>
+    <li>6*100</li>
+    <li>7*100</li>
+    <li>8*100</li>
+    <li>9*100</li>
+    <li>10*100</li>
+    <li>11*100</li>
+    <li>12*100</li>
+    <li>13*100</li>
+    <li>14*100</li>
+    <li>15*100</li>
+    <li>16*100</li>
+    <li>17*100</li>
+    <li>18*100</li>
+    <li>19*100</li>
+    <li>20*100</li>
+    <li>21*100</li>
+    <li>22*100</li>
+    <li>23*100</li>
+    <li>24*100</li>
+    <li>25*100</li>
+    <li>26*100</li>
+    <li>27*100</li>
+    <li>28*100</li>
+    <li>29*100</li>
+    <li>30*100</li>
+    <li>31*100</li>
+    <li>32*100</li>
+    <li>33*100</li>
+    <li>34*100</li>
+    <li>35*100</li>
+    <li>36*100</li>
+    <li>37*100</li>
+    <li>38*100</li>
+    <li>39*100</li>
+    <li>40*100</li>
+    <li>41*100</li>
+    <li>42*100</li>
+    <li>43*100</li>
+    <li>44*100</li>
+    <li>45*100</li>
+    <li>46*100</li>
+    <li>47*100</li>
+    <li>48*100</li>
+    <li>49*100</li>
+    <li>50*100</li>
+    <li>51*100</li>
+    <li>52*100</li>
+    <li>53*100</li>
+    <li>54*100</li>
+    <li>55*100</li>
+    <li>56*100</li>
+    <li>57*100</li>
+    <li>58*100</li>
+    <li>59*100</li>
+    <li>60*100</li>
+    <li>61*100</li>
+    <li>62*100</li>
+    <li>63*100</li>
+    <li>64*100</li>
+    <li>65*100</li>
+    <li>66*100</li>
+    <li>67*100</li>
+    <li>68*100</li>
+    <li>69*100</li>
+    <li>70*100</li>
+    <li>71*100</li>
+    <li>72*100</li>
+    <li>73*100</li>
+    <li>74*100</li>
+    <li>75*100</li>
+    <li>76*100</li>
+    <li>77*100</li>
+    <li>78*100</li>
+    <li>79*100</li>
+    <li>80*100</li>
+    <li>81*100</li>
+    <li>82*100</li>
+    <li>83*100</li>
+    <li>84*100</li>
+    <li>85*100</li>
+    <li>86*100</li>
+    <li>87*100</li>
+    <li>88*100</li>
+    <li>89*100</li>
+    <li>90*100</li>
+    <li>91*100</li>
+    <li>92*100</li>
+    <li>93*100</li>
+    <li>94*100</li>
+    <li>95*100</li>
+    <li>96*100</li>
+    <li>97*100</li>
+    <li>98*100</li>
+    <li>99*100</li>
+    <li>100*100</li>
+    <button>回到顶部</button>
+</ul>
+<a href="#topAnchor" style="position:fixed;right:0;bottom:0">回到顶部</a>
+<script>
+    var btn=document.getElementsByTagName('button')[0]
+    btn.addEventListener('click',function (ev) {
+        // document.body.scrollTop = document.documentElement.scrollTop = 0;
+        window.scroll({
+            top: 0,
+            left: 0,
+            behavior: 'smooth'
+        });
+    })
+
+    window.addEventListener('scroll',function (ev) {
+        // console.log('document.body.scrollTop:'+document.body.scrollTop)
+        // console.log('document.documentElement.scrollTop:'+document.documentElement.scrollTop)
+        // console.log('window.pageYoffset:'+window.pageYoffset)
+        console.log(btn.scrollTop)
+
+    })
+
+
+
+</script>
+</body>
+</html>
