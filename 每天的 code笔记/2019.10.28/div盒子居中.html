@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+
+        div.parent {
+            font-size: 0;
+            text-align: center;
+            height: 400px;
+            background: red;
+        }
+
+        div.parent::before {
+            content: "";
+            display: inline-block;
+            width: 0px;
+            height: 100%;
+            vertical-align: middle;
+            background: black;
+        }
+        div.child{
+            display: inline-block;
+            vertical-align: middle;
+            width: 100px;
+            height: 100px;
+            background: blue;
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="child"></div>
+    </div>
+</body>
+</html>
