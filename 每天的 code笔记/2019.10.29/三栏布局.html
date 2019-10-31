@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .box{
+            background: red;
+            display: flex;
+        }
+
+        .left,.right{
+            width: 100px;
+            height: 100px;
+            background: blue;
+            border: 1px solid lavender;
+        }
+
+        .middle{
+            width: 100%;
+            height: 100px;
+            background: salmon;
+            flex-grow:1;
+        }
+
+
+
+    </style>
+</head>
+<body>
+
+    <div class="box">
+        <div class="left"></div>
+        <div class="middle"></div>
+        <div class="right"></div>
+    </div>
+
+</body>
+</html>
