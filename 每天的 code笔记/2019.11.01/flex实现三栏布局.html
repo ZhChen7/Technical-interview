@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .box {
+            display: flex;
+        }
+
+        .left, .right {
+            width: 100px;
+            height: 100px;
+            background: red;
+            flex: 0 0 auto;
+        }
+
+        .middle {
+            flex: 1 1 auto;
+            width: 100%;
+            height: 100px;
+            background: salmon;
+        }
+    </style>
+</head>
+<body>
+<div class="box">
+    <div class="left"></div>
+    <div class="middle"></div>
+    <div class="right"></div>
+</div>
+</body>
+</html>

@@ -2,7 +2,7 @@
 
 **题目：** 5、Symbol概念及其作用
 
-**解析： **[Symbol 的作用](https://juejin.im/post/5ca762f3e51d4536da6c5624) 
+**解析：**[Symbol 的作用](https://juejin.im/post/5ca762f3e51d4536da6c5624) 
 
 ### symbols 是什么？
 
