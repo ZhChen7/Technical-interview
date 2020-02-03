@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+
+        .red{
+            color: red;
+        }
+
+    </style>
+</head>
+<body>
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+        <div class="box">5</div>
+        <div class="box">6</div>
+        <div class="box">7</div>
+        <div class="box">8</div>
+
+<script>
+    var arr=Array.from(document.getElementsByClassName('box'))
+
+    // arr.forEach(item=>{
+    //
+    // })
+
+    for (let i = 0; i < arr.length; i++) {
+        arr[i].classList.add('red')
+    }
+
+</script>
+</body>
+</html>

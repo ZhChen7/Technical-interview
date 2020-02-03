@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!-- input 搜索如何防抖，如何处理中文输入-->
+
+
+<input type="text" id="input">
+
+
+<script>
+
+    function debounce(fn, delay) {
+        let timeout = null
+        return function () {
+            clearTimeout(timeout)
+            timeout = setTimeout(function () {
+                fn.apply(this, arguments)
+            }, delay)
+        }
+    }
+
+
+    function Getinputcontent() {
+        console.log(document.getElementById('input').value)
+    }
+
+    document.getElementById('input').addEventListener('input', debounce(Getinputcontent, 500))
+
+
+</script>
+</body>
+</html>

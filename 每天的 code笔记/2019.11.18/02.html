@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input id='myinput'>
+<script>
+
+    function debounce(timeout){
+        var timer=null;
+       return  function input(e){
+            if(e.target.composing){
+                return
+            }
+            if(timer){
+                clearTimeout(timer)
+            }
+           timer = setTimeout(()=>{
+               console.log(e.target.value)
+                    timer = null
+                }, timeout)
+        }
+
+    }
+
+    function onCompositionStart(e){
+        e.target.composing = true;
+    }
+    function onCompositionEnd(e){
+        //console.log(e.target)
+        e.target.composing = false;
+        var event = document.createEvent('HTMLEvents');
+        event.initEvent('input');
+        e.target.dispatchEvent(event);
+    }
+
+
+    var input_dom = document.getElementById('myinput');
+    input_dom.addEventListener('input',debounce(1000));
+    input_dom.addEventListener('compositionstart',onCompositionStart);
+    input_dom.addEventListener('compositionend',onCompositionEnd);
+</script>
+</body>
+</html>
