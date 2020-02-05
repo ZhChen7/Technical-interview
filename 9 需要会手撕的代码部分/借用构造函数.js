@@ -4,14 +4,14 @@ function SuperType(name) {
 }
 
 SuperType.prototype.say=function () {
-    console.log('xxxxx')
+    console.log('异步编程的6种解决方案')
 }
 
 function SubType(name) {
     SuperType.call(this,name)
 }
 
-let a =new SubType('xxxxx')
+let a =new SubType('异步编程的6种解决方案')
 let b =new SubType('yyyyy')
 
 b.color.push('pink')
