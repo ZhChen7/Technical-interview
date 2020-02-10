@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+
+<script >
+    //定义本体
+    let myImg=(function () {
+        var img = new Image()
+        document.body.append(img)
+        return {
+            setsrc(src){
+                this.src=src
+            }
+        }
+    })()
+
+   //代理函数
+  let Proxysetimg = (function () {
+       var img = new Image()
+       img.onload =function () {
+           myImg.setsrc(this.src)
+       }
+       return{
+           setsrc(src){
+               myImg.setsrc('./loading.gif')
+               img.src = src
+           }
+       }
+
+  })()
+
+    Proxysetimg('./111.png')
+
+</script>
+
+
+</body>
+</html>
