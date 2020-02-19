@@ -113,17 +113,78 @@ function BinarySerachTree() {
 
     BinarySerachTree.prototype.search = function (key) {
         let node = this.root
-        while(node!=null){
-            if(key<node.key){
+        while (node != null) {
+            if (key < node.key) {
                 node = node.left
-            }else if(key > node.key){
+            } else if (key > node.key) {
                 node = node.right
-            }else{
+            } else {
                 return true
             }
         }
         return false
     }
+
+    BinarySerachTree.prototype.remove = function (key) {
+
+        let current = this.root
+        let parent = null
+        let isLeftChild = true
+
+        //1、寻找要删除的节点
+        while (key !== current.key) {
+            parent = current
+            if (key < current.key) {
+                isLeftChild = true
+                current = current.left
+            } else {
+                isLeftChild = false
+                current = current.right
+            }
+            if (current === null) return false
+        }
+
+
+        //2、根据对应的情况删除节点
+        //2.1 删除的节点是叶子节点
+        if (current.left === null && current.right === null) {
+            if (current == this.root) {
+                this.root = null
+            } else {
+                if (isLeftChild) {
+                    parent.left = null
+                } else {
+                    parent.right = null
+                }
+            }
+        }
+        //2.2 删除的节点只有一个节点
+         else if(current.right ==null){
+             if(current==this.root){
+                 this.root = current.left
+             }else if(isLeftChild){
+                 parent.left = current.left
+             }else{
+                 parent.right = current.left
+             }else if(current.left ==null){
+                if(current==this.root){
+                    this.root = current.right
+                }else if (isLeftChild){
+                    parent.left = current.right
+                }else{
+                    parent.right = current.right
+                }
+            }
+        }
+
+
+
+        //2.3 删除的节点有两个节点
+
+
+    }
+
+
 }
 
 
