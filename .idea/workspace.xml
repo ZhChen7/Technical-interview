@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c638edbe-dacf-4616-94ab-d340e19b91b1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/数据结构/图/图.js" beforeDir="false" afterPath="$PROJECT_DIR$/数据结构/图/图.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,11 +22,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/数据结构/图/图.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="121" column="44" selection-start-line="121" selection-start-column="44" selection-end-line="121" selection-end-column="44" />
-              <folding>
-                <element signature="n#!!block;n#Queue#0" />
-              </folding>
+            <state relative-caret-position="372">
+              <caret line="200" column="22" lean-forward="true" selection-start-line="200" selection-start-column="22" selection-end-line="200" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -118,8 +116,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="281" />
-    <option name="y" value="263" />
+    <option name="x" value="240" />
+    <option name="y" value="123" />
     <option name="width" value="1370" />
     <option name="height" value="954" />
   </component>
@@ -169,12 +167,6 @@
               <item name="Technical-interview" type="b2602c69:ProjectViewProjectNode" />
               <item name="Technical-interview" type="462c0819:PsiDirectoryNode" />
               <item name="数据结构" type="462c0819:PsiDirectoryNode" />
-              <item name="图" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Technical-interview" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Technical-interview" type="462c0819:PsiDirectoryNode" />
-              <item name="数据结构" type="462c0819:PsiDirectoryNode" />
               <item name="队列" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -190,6 +182,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="MTConfigurable" />
     <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/每天的 code笔记/2020.02.09.js" />
   </component>
@@ -383,7 +376,7 @@
       <workItem from="1582085160206" duration="2625000" />
       <workItem from="1582113650153" duration="14421000" />
       <workItem from="1582177979354" duration="1308000" />
-      <workItem from="1582201337912" duration="9296000" />
+      <workItem from="1582201337912" duration="12531000" />
     </task>
     <task id="LOCAL-00001" summary="add 2019//11/18 task">
       <created>1574062224101</created>
@@ -532,11 +525,18 @@
       <option name="project" value="LOCAL" />
       <updated>1582129434366</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="add 2020/02/20    图 封装 遍历（BFS DFS）">
+      <created>1582213006898</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1582213006898</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="210939000" />
+    <option name="totallyTimeSpent" value="214174000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -547,7 +547,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32781458" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49952874" visible="true" weight="0.04385965" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49952874" visible="true" weight="0.21929824" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.45118344" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -606,7 +606,8 @@
     <MESSAGE value="add 2020/02/17  数据结构 链表 集合 字典 哈希表 总结" />
     <MESSAGE value="add 2020/02/18   哈希表 完成" />
     <MESSAGE value="add 2020/02/19   总结 二叉树" />
-    <option name="LAST_COMMIT_MESSAGE" value="add 2020/02/19   总结 二叉树" />
+    <MESSAGE value="add 2020/02/20    图 封装 遍历（BFS DFS）" />
+    <option name="LAST_COMMIT_MESSAGE" value="add 2020/02/20    图 封装 遍历（BFS DFS）" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -958,11 +959,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/数据结构/图/图.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="121" column="44" selection-start-line="121" selection-start-column="44" selection-end-line="121" selection-end-column="44" />
-          <folding>
-            <element signature="n#!!block;n#Queue#0" />
-          </folding>
+        <state relative-caret-position="372">
+          <caret line="200" column="22" lean-forward="true" selection-start-line="200" selection-start-column="22" selection-end-line="200" selection-end-column="22" />
         </state>
       </provider>
     </entry>
