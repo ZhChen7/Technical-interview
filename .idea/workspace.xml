@@ -19,19 +19,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/数据结构/树/二叉树的封装.js">
+        <entry file="file://$PROJECT_DIR$/数据结构/图/图.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="134" selection-start-line="134" selection-end-line="138" selection-end-column="11" />
+            <state relative-caret-position="342">
+              <caret line="121" column="44" selection-start-line="121" selection-start-column="44" selection-end-line="121" selection-end-column="44" />
+              <folding>
+                <element signature="n#!!block;n#Queue#0" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/数据结构/树/01.html">
+        <entry file="file://$PROJECT_DIR$/数据结构/队列/基于数组的封装.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="554">
-              <caret line="170" column="26" selection-start-line="170" selection-start-column="26" selection-end-line="170" selection-end-column="26" />
+            <state relative-caret-position="216">
+              <caret line="12" column="5" lean-forward="true" selection-end-line="40" />
             </state>
           </provider>
         </entry>
@@ -41,8 +44,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -60,8 +63,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/每天的 code笔记/2020.02.08/vue 生命周期.js" />
-        <option value="$PROJECT_DIR$/每天的 code笔记/2020.02.09.js" />
         <option value="$PROJECT_DIR$/每天的 code笔记/2020.02.09/JSX.js" />
         <option value="$PROJECT_DIR$/每天的 code笔记/2020.02.09/工厂模式.js" />
         <option value="$PROJECT_DIR$/设计模式/单例模式.js" />
@@ -95,7 +96,6 @@
         <option value="$PROJECT_DIR$/数据结构/树/二叉树/二叉树遍历.js" />
         <option value="$PROJECT_DIR$/数据结构/栈/基于数组的栈.js" />
         <option value="$PROJECT_DIR$/数据结构/栈/十进制转二进制.js" />
-        <option value="$PROJECT_DIR$/数据结构/队列/基于数组的封装.js" />
         <option value="$PROJECT_DIR$/数据结构/队列/击鼓传花.js" />
         <option value="$PROJECT_DIR$/数据结构/队列/优先级队列.js" />
         <option value="$PROJECT_DIR$/数据结构/链表/封装链表.js" />
@@ -111,14 +111,17 @@
         <option value="$PROJECT_DIR$/数据结构/树/封装树结构.js" />
         <option value="$PROJECT_DIR$/数据结构/树/01.html" />
         <option value="$PROJECT_DIR$/数据结构/树/二叉树的封装.js" />
+        <option value="$PROJECT_DIR$/数据结构/图.js" />
+        <option value="$PROJECT_DIR$/数据结构/队列/基于数组的封装.js" />
+        <option value="$PROJECT_DIR$/数据结构/图/图.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="338" />
-    <option name="y" value="252" />
+    <option name="x" value="281" />
+    <option name="y" value="263" />
     <option name="width" value="1370" />
-    <option name="height" value="865" />
+    <option name="height" value="954" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -128,35 +131,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Technical-interview" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Technical-interview" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Technical-interview" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Technical-interview" type="462c0819:PsiDirectoryNode" />
-              <item name="数据结构" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Technical-interview" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Technical-interview" type="462c0819:PsiDirectoryNode" />
-              <item name="数据结构" type="462c0819:PsiDirectoryNode" />
-              <item name="树" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Technical-interview" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Technical-interview" type="462c0819:PsiDirectoryNode" />
-              <item name="数据结构" type="462c0819:PsiDirectoryNode" />
-              <item name="树" type="462c0819:PsiDirectoryNode" />
-              <item name="二叉树" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -179,6 +153,34 @@
           <select />
         </subPane>
       </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Technical-interview" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Technical-interview" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Technical-interview" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Technical-interview" type="462c0819:PsiDirectoryNode" />
+              <item name="数据结构" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Technical-interview" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Technical-interview" type="462c0819:PsiDirectoryNode" />
+              <item name="数据结构" type="462c0819:PsiDirectoryNode" />
+              <item name="图" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Technical-interview" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Technical-interview" type="462c0819:PsiDirectoryNode" />
+              <item name="数据结构" type="462c0819:PsiDirectoryNode" />
+              <item name="队列" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -188,20 +190,22 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
     <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/每天的 code笔记/2020.02.09.js" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\ZC\Desktop\Technical-interview\设计模式\代理模式" />
-      <recent name="C:\Users\ZC\Desktop\Technical-interview\设计模式\单例模式" />
-      <recent name="C:\Users\ZC\Desktop\Technical-interview\设计模式" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\ZC\Desktop\Technical-interview\前端构建工具\gulpdemo" />
       <recent name="C:\Users\ZC\Desktop\Technical-interview\设计模式\单例模式" />
       <recent name="C:\Users\ZC\Desktop\Technical-interview\9 需要会手撕的代码部分" />
       <recent name="C:\Users\ZC\Desktop\Technical-interview\异步编程的6种解决方案" />
       <recent name="C:\Users\ZC\Desktop\Technical-interview\异步编程6种解决方案" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ZC\Desktop\Technical-interview\数据结构\图" />
+      <recent name="C:\Users\ZC\Desktop\Technical-interview\设计模式\代理模式" />
+      <recent name="C:\Users\ZC\Desktop\Technical-interview\设计模式\单例模式" />
+      <recent name="C:\Users\ZC\Desktop\Technical-interview\设计模式" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -216,7 +220,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.二叉树的封装.js">
+  <component name="RunManager" selected="Node.js.图.js">
     <configuration name="01.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Technical-interview/数据结构/树/01.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -229,10 +233,40 @@
     <configuration name="基于数组的封装.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/数据结构/队列/基于数组的封装.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
+    <configuration name="图.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/数据结构/图/图.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="手写递归方法实现深拷贝.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/9 需要会手撕的代码部分/手写递归方法实现深拷贝.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="借用构造函数.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/9 需要会手撕的代码部分/借用构造函数.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
     <configuration name="二叉树的封装.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/数据结构/树/二叉树的封装.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
+    <configuration name="基于数组的栈.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/数据结构/栈/基于数组的栈.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="哈希函数.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/数据结构/哈希表/哈希函数.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="独立作用域.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/每天的 code笔记/2020.02.07/独立作用域.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="十进制转二进制.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/数据结构/栈/十进制转二进制.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="击鼓传花.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/数据结构/队列/击鼓传花.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="优先级队列.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/数据结构/队列/优先级队列.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
     <configuration name="检测一个数是否为质数.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/数据结构/哈希表/检测一个数是否为质数.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="二分法.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/每天的 code笔记/2020.1.7/二分法.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <configuration name="原型式继承.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/9 需要会手撕的代码部分/原型式继承.js" working-dir="$PROJECT_DIR$">
@@ -251,9 +285,6 @@
       <method v="2" />
     </configuration>
     <configuration name="原型式继承.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/每天的 code笔记/2020.01.30/原型式继承.js" working-dir="$PROJECT_DIR$">
-      <method v="2" />
-    </configuration>
-    <configuration name="二分法.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/每天的 code笔记/2020.1.7/二分法.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <configuration name="观察者模式.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/设计模式/观察者模式.js" working-dir="$PROJECT_DIR$">
@@ -277,33 +308,9 @@
     <configuration name="柯里化.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/每天的 code笔记/2019.11.21/柯里化.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
-    <configuration name="手写递归方法实现深拷贝.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/9 需要会手撕的代码部分/手写递归方法实现深拷贝.js" working-dir="$PROJECT_DIR$">
-      <method v="2" />
-    </configuration>
-    <configuration name="借用构造函数.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/9 需要会手撕的代码部分/借用构造函数.js" working-dir="$PROJECT_DIR$">
-      <method v="2" />
-    </configuration>
-    <configuration name="基于数组的栈.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/数据结构/栈/基于数组的栈.js" working-dir="$PROJECT_DIR$">
-      <method v="2" />
-    </configuration>
-    <configuration name="哈希函数.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/数据结构/哈希表/哈希函数.js" working-dir="$PROJECT_DIR$">
-      <method v="2" />
-    </configuration>
-    <configuration name="独立作用域.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/每天的 code笔记/2020.02.07/独立作用域.js" working-dir="$PROJECT_DIR$">
-      <method v="2" />
-    </configuration>
-    <configuration name="十进制转二进制.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/数据结构/栈/十进制转二进制.js" working-dir="$PROJECT_DIR$">
-      <method v="2" />
-    </configuration>
-    <configuration name="击鼓传花.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/数据结构/队列/击鼓传花.js" working-dir="$PROJECT_DIR$">
-      <method v="2" />
-    </configuration>
-    <configuration name="优先级队列.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/数据结构/队列/优先级队列.js" working-dir="$PROJECT_DIR$">
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.二叉树的封装.js" />
+        <item itemvalue="Node.js.图.js" />
         <item itemvalue="JavaScript Debug.01.html" />
         <item itemvalue="Node.js.01.js" />
         <item itemvalue="Node.js.封装哈希表(链地址法).js" />
@@ -374,7 +381,9 @@
       <workItem from="1582004082717" duration="10212000" />
       <workItem from="1582027051657" duration="1511000" />
       <workItem from="1582085160206" duration="2625000" />
-      <workItem from="1582113650153" duration="12466000" />
+      <workItem from="1582113650153" duration="14421000" />
+      <workItem from="1582177979354" duration="1308000" />
+      <workItem from="1582201337912" duration="9296000" />
     </task>
     <task id="LOCAL-00001" summary="add 2019//11/18 task">
       <created>1574062224101</created>
@@ -509,22 +518,36 @@
       <option name="project" value="LOCAL" />
       <updated>1582017222096</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="add 2020/02/19   总结 二叉树">
+      <created>1582127584412</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1582127584412</updated>
+    </task>
+    <task id="LOCAL-00021" summary="add 2020/02/19   总结 二叉树">
+      <created>1582129434366</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1582129434366</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="198380000" />
+    <option name="totallyTimeSpent" value="210939000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2019802" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.119471945" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32781458" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49952874" visible="true" weight="0.23391813" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49952874" visible="true" weight="0.04385965" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.45118344" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -582,7 +605,8 @@
     <MESSAGE value="add 2020/02/17  数据结构 数组 栈 队列 总结" />
     <MESSAGE value="add 2020/02/17  数据结构 链表 集合 字典 哈希表 总结" />
     <MESSAGE value="add 2020/02/18   哈希表 完成" />
-    <option name="LAST_COMMIT_MESSAGE" value="add 2020/02/18   哈希表 完成" />
+    <MESSAGE value="add 2020/02/19   总结 二叉树" />
+    <option name="LAST_COMMIT_MESSAGE" value="add 2020/02/19   总结 二叉树" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -595,13 +619,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/每天的 code笔记/2020.02.07/patch（container，vnode）.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/每天的 code笔记/2020.02.09.js" />
     <entry file="file://$PROJECT_DIR$/每天的 code笔记/2020.02.08/vue 生命周期.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -861,20 +878,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/数据结构/队列/基于数组的封装.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="30" column="5" selection-start-line="9" selection-start-column="3" selection-end-line="30" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/数据结构/队列/优先级队列.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="55" column="17" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/数据结构/链表/双向链表封装.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
@@ -925,17 +928,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/数据结构/树/二叉树的封装.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3312">
+          <caret line="184" column="5" selection-start-line="184" selection-start-column="5" selection-end-line="184" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/数据结构/树/01.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="554">
+        <state relative-caret-position="3060">
           <caret line="170" column="26" selection-start-line="170" selection-start-column="26" selection-end-line="170" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/数据结构/树/二叉树的封装.js">
+    <entry file="file://$PROJECT_DIR$/数据结构/队列/优先级队列.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="55" column="17" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据结构/队列/基于数组的封装.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
-          <caret line="134" selection-start-line="134" selection-end-line="138" selection-end-column="11" />
+          <caret line="12" column="5" lean-forward="true" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据结构/图/图.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="121" column="44" selection-start-line="121" selection-start-column="44" selection-end-line="121" selection-end-column="44" />
+          <folding>
+            <element signature="n#!!block;n#Queue#0" />
+          </folding>
         </state>
       </provider>
     </entry>
