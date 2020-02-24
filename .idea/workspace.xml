@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c638edbe-dacf-4616-94ab-d340e19b91b1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/9 需要会手撕的代码部分/Promise.js" beforeDir="false" afterPath="$PROJECT_DIR$/9 需要会手撕的代码部分/Promise.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,13 +20,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/9 需要会手撕的代码部分/Promise.js">
+        <entry file="file://$PROJECT_DIR$/9 需要会手撕的代码部分/再次手写promise.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="35" column="21" lean-forward="true" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
-              <folding>
-                <element signature="n#!!block;n#f#0;n#!!block;n#Promise#0" />
-              </folding>
+            <state relative-caret-position="396">
+              <caret line="142" column="29" selection-start-line="142" selection-start-column="29" selection-end-line="142" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -54,8 +52,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/前端构建工具/gulpdemo/index1.js" />
-        <option value="$PROJECT_DIR$/前端构建工具/gulpdemo/index3.js" />
         <option value="$PROJECT_DIR$/前端构建工具/gulpdemo/index2.js" />
         <option value="$PROJECT_DIR$/前端构建工具/gulpdemo/build/all.min.js" />
         <option value="$PROJECT_DIR$/前端构建工具/webpackdemo/src/mian.js" />
@@ -104,15 +100,17 @@
         <option value="$PROJECT_DIR$/css相关布局/三栏布局/双飞翼布局.html" />
         <option value="$PROJECT_DIR$/2 JS/a ==1&amp;&amp;a==2&amp;&amp;a==3.js" />
         <option value="$PROJECT_DIR$/9 需要会手撕的代码部分/01.js" />
+        <option value="$PROJECT_DIR$/9 需要会手撕的代码部分/async.js" />
         <option value="$PROJECT_DIR$/9 需要会手撕的代码部分/Promise.js" />
+        <option value="$PROJECT_DIR$/9 需要会手撕的代码部分/再次手写promise.js" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="2190" />
-    <option name="y" value="93" />
-    <option name="width" value="1064" />
-    <option name="height" value="737" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1912" />
+    <option name="y" value="52" />
+    <option name="width" value="1456" />
+    <option name="height" value="876" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -200,13 +198,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.Promise.js">
-    <configuration name="inline-block.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Technical-interview/css相关布局/居中布局/inline-block.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="使用负margin-bottom和正padding-bottom对冲实现.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Technical-interview/css相关布局/等高布局/使用负margin-bottom和正padding-bottom对冲实现.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Node.js.再次手写promise.js">
     <configuration name="01.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/9 需要会手撕的代码部分/01.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
@@ -297,13 +289,19 @@
     <configuration name="a ==1&amp;&amp;a==2&amp;&amp;a==3.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/2 JS/a ==1&amp;&amp;a==2&amp;&amp;a==3.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
+    <configuration name="async.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/9 需要会手撕的代码部分/async.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="再次手写promise.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/9 需要会手撕的代码部分/再次手写promise.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.再次手写promise.js" />
         <item itemvalue="Node.js.Promise.js" />
+        <item itemvalue="Node.js.async.js" />
         <item itemvalue="Node.js.01.js" />
         <item itemvalue="Node.js.a ==1&amp;&amp;a==2&amp;&amp;a==3.js" />
-        <item itemvalue="JavaScript Debug.使用负margin-bottom和正padding-bottom对冲实现.html" />
-        <item itemvalue="JavaScript Debug.inline-block.html" />
       </list>
     </recent_temporary>
   </component>
@@ -377,7 +375,7 @@
       <workItem from="1582269928891" duration="14011000" />
       <workItem from="1582382358277" duration="1313000" />
       <workItem from="1582424924891" duration="7221000" />
-      <workItem from="1582523330767" duration="10674000" />
+      <workItem from="1582523330767" duration="15760000" />
     </task>
     <task id="LOCAL-00001" summary="add 2019//11/18 task">
       <created>1574062224101</created>
@@ -547,22 +545,29 @@
       <option name="project" value="LOCAL" />
       <updated>1582290082989</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="add 2020/02/24    手写 promise">
+      <created>1582543213143</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1582543213143</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="257597000" />
+    <option name="totallyTimeSpent" value="262683000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2123" y="457" width="1064" height="737" extended-state="1" />
+    <frame x="1912" y="52" width="1456" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2278481" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.09725159" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32781458" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49952874" visible="true" weight="0.2512909" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49952874" visible="true" weight="0.225" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.45118344" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -577,12 +582,12 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.16066213" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13460183" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32781458" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49952874" visible="true" weight="0.29776248" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49952874" visible="true" weight="0.18888889" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.45118344" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -623,7 +628,8 @@
     <MESSAGE value="add 2020/02/19   总结 二叉树" />
     <MESSAGE value="add 2020/02/20    图 封装 遍历（BFS DFS）" />
     <MESSAGE value="add 2020/02/21    排序算法" />
-    <option name="LAST_COMMIT_MESSAGE" value="add 2020/02/21    排序算法" />
+    <MESSAGE value="add 2020/02/24    手写 promise" />
+    <option name="LAST_COMMIT_MESSAGE" value="add 2020/02/24    手写 promise" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -632,27 +638,16 @@
           <url>file://$PROJECT_DIR$/每天的 code笔记/2020.02.03/a==1a==2a==3.js</url>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/9 需要会手撕的代码部分/Promise.js</url>
+          <line>12</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/前端构建工具/grunt/action.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/前端构建工具/grunt/Gruntfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/前端构建工具/gulpdemo/index3.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -951,13 +946,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/9 需要会手撕的代码部分/async.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/9 需要会手撕的代码部分/Promise.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="35" column="21" lean-forward="true" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
-          <folding>
-            <element signature="n#!!block;n#f#0;n#!!block;n#Promise#0" />
-          </folding>
+        <state relative-caret-position="323">
+          <caret line="97" lean-forward="true" selection-start-line="97" selection-end-line="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/9 需要会手撕的代码部分/再次手写promise.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="142" column="29" selection-start-line="142" selection-start-column="29" selection-end-line="142" selection-end-column="29" />
         </state>
       </provider>
     </entry>

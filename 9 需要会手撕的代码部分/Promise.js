@@ -5,7 +5,7 @@ function Promise(excutor) {
     _that.callbacks = []
 
     function resolve(value) {
-
+        if (_that.status !== 'pending') return
         _that.status = 'resolved'
         _that.data = value
         if (_that.callbacks.length > 0) {
@@ -156,13 +156,13 @@ Promise.rejectdelay = function (value, time) {
 }
 
 
-const p1 = Promise.reject(1)
-
-p1.catch(reason => {
-    console.log(reason)
+const p = new Promise((resolve, reject) => {
+    setTimeout(() => {
+        resolve(1)
+    })
+}).then(value => {
+    console.log(value)
 })
-
-
 
 
 
