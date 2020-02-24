@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p id="p1" draggable="true" ondragstart="dragstart_handler(event)">This element is draggable.</p>
+
+<script>
+
+    function dragstart_handler(ev) {
+        // Add the target element's id to the data transfer object
+        ev.dataTransfer.setData("text/plain", ev.target.innerText);
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .box{
+            overflow: hidden;
+            padding: 0 100px 0 100px;
+        }
+        .box>div{
+            float: left;
+            position: relative;
+        }
+
+        .box>.left{
+            width: 100px;
+            height: 100px;
+            background: sandybrown;
+            left: -100px;
+            margin-left: -100%;
+        }
+
+        .box>.right{
+            width: 100px;
+            height: 100px;
+            background:salmon;
+            right: -100px;
+            margin-left: -100px;
+        }
+
+        .box>.center{
+            width: 100%;
+            height: 300px;
+            background: #4577dc;
+        }
+
+    </style>
+</head>
+<body>
+
+
+    <div class="box">
+        <div class="center">
+            center
+        </div>
+        <div class="left">
+            left
+        </div>
+        <div class="right">
+            right
+        </div>
+    </div>
+
+</body>
+</html>
