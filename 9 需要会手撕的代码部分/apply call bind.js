@@ -42,7 +42,7 @@ Function.prototype.bind = function (obj,...arg) {
 
     let bound = function () {
         let res = [...args,...arguments]
-        let obj = this instanceof f?this: obj||this
+        let obj = this instanceof f?this: obj
         return self.apply(obj,res)
     }
 
