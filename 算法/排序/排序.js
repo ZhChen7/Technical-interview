@@ -60,7 +60,6 @@ function ArrayList() {
         }
     }
 
-
     //高级排序
     //希尔排序 (对插入排序的升级)
     ArrayList.prototype.shellSort = function () {
@@ -137,9 +136,9 @@ function ArrayList() {
 }
 
 let list = new ArrayList()
+list.insert(5)
 list.insert(1)
 list.insert(3)
-list.insert(5)
 // list.insert(3)
 // list.insert(23)
 // list.insert(232)
@@ -149,7 +148,8 @@ list.insert(7)
 // list.bubbles()
 // list.selectSort()
 // list.insertSort()
-list.quickSort()
+// list.quickSort()
+list.shellSort()
 
 
 console.log(list.toString())
