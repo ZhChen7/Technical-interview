@@ -225,6 +225,28 @@ function BinarySerachTree() {
         }
         return false
     }
+    BinarySerachTree.prototype.zhiroot = function (root) {
+            let queue = [],
+                result = []
+            if (this.root !== null) {
+                queue.push(this.root)
+            }
+            let pointer = 0
+            let flag = 1
+            while (pointer < queue.length) {
+                let temp = queue[pointer++]
+                result.push(temp.key)
+                if (flag % 2 == 1) {
+                    temp.right && queue.push(temp.right)
+                    temp.left && queue.push(temp.left)
+                } else {
+                    temp.left && queue.push(temp.left)
+                    temp.right && queue.push(temp.right)
+                }
+                flag++
+            }
+            return result
+    }
     //
     // BinarySerachTree.prototype.remove = function (key) {
     //
@@ -306,7 +328,7 @@ a.insert(7)
 // console.log(a.middleroot())
 // console.log(a.oldroot())
 console.log(a.bfsRoot())
-console.log(a.bfsRootnotdigui())
+// console.log(a.bfsRootnotdigui())
 
 
 
