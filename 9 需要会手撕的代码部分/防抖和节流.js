@@ -1,14 +1,14 @@
 //防抖
-
 function debounce(fn, delay) {
     let timeout = null
     return function () {
         clearTimeout(timeout)
         timeout = setTimeout(() => {
-            fn.call(this, arguments)
+            fn.apply(this, arguments)
         }, delay)
     }
 }
+
 
 //节流
 function throttle(fn,delay) {
@@ -17,7 +17,7 @@ function throttle(fn,delay) {
         if(!canRun) return
         canRun = false
         setTimeout(()=>{
-            fn.call(this,arguments)
+            fn.apply(this,arguments)
             canRun = true
         },delay)
     }

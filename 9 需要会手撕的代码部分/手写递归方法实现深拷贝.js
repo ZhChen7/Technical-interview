@@ -15,7 +15,6 @@ function clone(target) {
     }
     for (let item in target) {
         let value = target[item]
-
         if (checkedType(value) === 'Object' || checkedType(value) === 'Array') {
             result[item] = clone(value)
         } else {

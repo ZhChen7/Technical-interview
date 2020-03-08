@@ -127,6 +127,7 @@ function bfs(root) {
     return result
 }
 
+
 // 按之字形顺序打印二叉树
 function zhiroot(root) {
     let queue = [],
@@ -150,6 +151,8 @@ function zhiroot(root) {
     }
     return result
 }
+
+
 
 //7、求二叉树第K层的节点个数
 function getknum(root,k) {
@@ -206,7 +209,6 @@ function longerlength(root) {
         path = Math.max(path,left+right)
         return Math.max(left,right)+1
     }
-
 }
 
 // 二叉树中和为某一值的路径

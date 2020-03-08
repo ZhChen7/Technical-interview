@@ -1,6 +1,5 @@
 // 自定义apply函数
 Function.prototype.apply1 = function (obj, arg) {
-    console.log(obj)
     //context为null或者是undefined时,设置默认值
     if (!obj) {
         obj = typeof window === 'undefined' ? global : window
@@ -31,21 +30,21 @@ Function.prototype.call1 = function (obj, ...arg) {
 }
 
 // 自定义 bind 函数
-Function.prototype.bind = function (obj,...arg) {
-    if(!obj){
-        obj = typeof window === 'undefined'? global : window
+Function.prototype.bind = function (obj, ...arg) {
+    if (!obj) {
+        obj = typeof window === 'undefined' ? global : window
     }
     let self = this
     let args = arg
+
     function f() {}
+
     f.prototype = this.prototype
-
     let bound = function () {
-        let res = [...args,...arguments]
-        let obj = this instanceof f?this: obj
-        return self.apply(obj,res)
+        let res = [...args, ...arguments]
+        let obj = this instanceof f ? this : obj
+        return self.apply(obj, res)
     }
-
     bound.prototype = new f()
     return bound
 }

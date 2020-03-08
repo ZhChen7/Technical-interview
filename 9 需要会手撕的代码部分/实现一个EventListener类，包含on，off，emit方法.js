@@ -3,6 +3,7 @@ class EventListener {
     constructor() {
         this.list = {}
     }
+
     on(key, fn) {
         if (!this.list[key]) {
             this.list[key] = []
@@ -10,12 +11,14 @@ class EventListener {
         this.list[key].push(fn)
 
     }
-     emit(key, ...args) {
+
+    emit(key, ...args) {
         for (let fn of this.list[key]) {
             fn.apply(this, args)
         }
     }
-     off(key, fn) {
+
+    off(key, fn) {
         let fnlist = this.list[key]
         if (!fnlist) return
         if (!fn) {
@@ -31,20 +34,20 @@ class EventListener {
     }
 }
 
-let obj1=new EventListener()
+let obj1 = new EventListener()
 
 
-obj1.on('work',value=>{
+obj1.on('work', value => {
     console.log(`我是${value}啊`)
 })
 
-obj1.on('eat',value=>{
+obj1.on('eat', value => {
     console.log(`我在${value}啊`)
 })
 
 
-obj1.emit('work','zc')
+obj1.emit('work', 'zc')
 
 obj1.off('eat')
 
-obj1.emit('eat','吃西瓜')
+obj1.emit('eat', '吃西瓜')

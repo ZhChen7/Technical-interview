@@ -44,7 +44,6 @@ Promise.prototype.then = function (onFulfilled, onRejected) {
     onRejected = typeof onFulfilled === 'function' ? onRejected : reason => {
         throw reason
     }
-
     const _that = this
     return new Promise((resolve, reject) => {
         function handle(callback) {
@@ -85,6 +84,15 @@ Promise.prototype.catch = function (onRejected) {
     return this.then(undefined, onRejected)
 }
 
+
+Promise.prototype.finally = function (callback) {
+    return this.then(value => {
+        Promise.resolve(callback(value))
+    }, reason => {
+        Promise.resolve(callback(reason))
+    })
+}
+
 Promise.resolve = function (value) {
     return new Promise((resolve, reject) => {
         if (value instanceof Promise) {
@@ -104,7 +112,7 @@ Promise.reject = function (reason) {
 
 
 Promise.all = function (promises) {
-    const values = Array.from({length: promise.length})
+    let values = Array.from({length: promise.length})
     let count = 1
     return new Promise((resolve, reject) => {
         promises.forEach((p, index) => {
@@ -147,7 +155,6 @@ Promise.resolveDelay = function (value, time) {
 }
 
 Promise.rejectdelay = function (value, time) {
-
     return new Promise((resolve, reject) => {
         setTimeout(() => {
             reject(reason)
@@ -158,9 +165,9 @@ Promise.rejectdelay = function (value, time) {
 
 const p = new Promise((resolve, reject) => {
     setTimeout(() => {
-        resolve(1)
+        reject(1)
     })
-}).then(value => {
+}).finally(value => {
     console.log(value)
 })
 
