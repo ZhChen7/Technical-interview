@@ -26,4 +26,3 @@ function makeIterator(array) {
 // for (let item of iterable) {
 //     console.log(item); // 'a', 'b', 'c'
 // }
-

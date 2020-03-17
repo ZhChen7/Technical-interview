@@ -19,12 +19,10 @@
 // });
 // console.log('script end');
 
-function f1(){
-   return Promise.resolve(222)
-}
+
 
 async function f() {
-   let b= await f1()
+    let b= await f1()
     console.log(b)
     console.log('1')
 

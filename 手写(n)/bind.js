@@ -4,15 +4,13 @@ Function.prototype.bind = function (obj, ...args) {
     }
     let self = this
     let arg = args
-
     function f() {}
-
     f.prototype = this.prototype
 
     let bound = function () {
         let rest = [...arg, ...arguments]
-        let obj = this instanceof f ? this : obj
-        return self.apply(obj, rest)
+        let _this = this instanceof f ? this : obj
+        return self.apply(_this, rest)
     }
     bound.prototype = new f()
     return bound

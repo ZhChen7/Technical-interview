@@ -41,7 +41,6 @@ function ArrayList() {
             }
             this.swap(min, i)
         }
-
     }
 
     //插入排序

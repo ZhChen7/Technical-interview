@@ -8,7 +8,7 @@ function Promise(excutor) {
         if (_that.status !== 'pending') return
         _that.status = 'resolved'
         _that.data = value
-        if (_that.length > 0) {
+        if (_that.callbacks.length > 0) {
             setTimeout(() => {
                 _that.callbacks.forEach(callbackobj => {
                     callbackobj.onFulfilled(value)
@@ -21,7 +21,7 @@ function Promise(excutor) {
         if (_that.status !== 'pending') return
         _that.status = 'rejected'
         _that.data = value
-        if (_that.length > 0) {
+        if (_that.callbacks.length > 0) {
             setTimeout(() => {
                 _that.callbacks.forEach(callbackobj => {
                     callbackobj.onRejected(reason)
@@ -89,8 +89,6 @@ Promise.prototype.catch = function (rejected) {
 }
 
 
-
-
 Promise.resolve = function (value) {
     return new Promise((resolve, reject) => {
         if (value instanceof Promise) {
@@ -142,7 +140,6 @@ Promise.race = function (promises) {
         })
     })
 }
-
 
 
 Promise.prototype.finally = function (callback) {

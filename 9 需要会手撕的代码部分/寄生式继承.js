@@ -4,7 +4,6 @@ function object(obj) {
     return new f()
 }
 
-
 function CerateAnother(original) {
     let clone = object(original)
     clone.say= function () {

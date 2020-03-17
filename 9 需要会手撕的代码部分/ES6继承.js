@@ -18,10 +18,9 @@ class SubType extends SuperType {
     }
 }
 
-
 let a = new SubType('ZC')
 
-for(let item in a){
+for (let item in a) {
     console.log(item)
 }
 
