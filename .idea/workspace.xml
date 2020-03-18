@@ -7,16 +7,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c638edbe-dacf-4616-94ab-d340e19b91b1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/9 需要会手撕的代码部分/ES6继承.js" beforeDir="false" afterPath="$PROJECT_DIR$/9 需要会手撕的代码部分/ES6继承.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/9 需要会手撕的代码部分/async.js" beforeDir="false" afterPath="$PROJECT_DIR$/9 需要会手撕的代码部分/async.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/9 需要会手撕的代码部分/发布订阅模式.js" beforeDir="false" afterPath="$PROJECT_DIR$/9 需要会手撕的代码部分/发布订阅模式.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/9 需要会手撕的代码部分/寄生式继承.js" beforeDir="false" afterPath="$PROJECT_DIR$/9 需要会手撕的代码部分/寄生式继承.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/9 需要会手撕的代码部分/手写一个迭代器(Iterator).js" beforeDir="false" afterPath="$PROJECT_DIR$/9 需要会手撕的代码部分/手写一个迭代器(Iterator).js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/手写(n)/ajax.js" beforeDir="false" afterPath="$PROJECT_DIR$/手写(n)/ajax.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/手写(n)/bind.js" beforeDir="false" afterPath="$PROJECT_DIR$/手写(n)/bind.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/手写(n)/new.js" beforeDir="false" afterPath="$PROJECT_DIR$/手写(n)/new.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/手写(n)/promise.js" beforeDir="false" afterPath="$PROJECT_DIR$/手写(n)/promise.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/算法/排序/排序.js" beforeDir="false" afterPath="$PROJECT_DIR$/算法/排序/排序.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -32,8 +22,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/9 需要会手撕的代码部分/手写一个迭代器(Iterator).js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="19" lean-forward="true" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+            <state relative-caret-position="324">
+              <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -46,8 +36,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/9 需要会手撕的代码部分/发布订阅模式.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+            <state relative-caret-position="846">
+              <caret line="47" selection-start-line="47" selection-end-line="47" />
             </state>
           </provider>
         </entry>
@@ -55,7 +45,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/9 需要会手撕的代码部分/柯里化函数.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="339">
+            <state relative-caret-position="396">
               <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
@@ -67,7 +57,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/手写(n)/bind.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
+            <state relative-caret-position="306">
               <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
@@ -103,7 +93,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/9 需要会手撕的代码部分/快排.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
+            <state relative-caret-position="450">
               <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
             </state>
           </provider>
@@ -112,7 +102,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/9 需要会手撕的代码部分/实现一个EventListener类，包含on，off，emit方法.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
+            <state relative-caret-position="108">
               <caret line="6" column="6" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="6" />
             </state>
           </provider>
@@ -199,10 +189,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="102" />
-    <option name="y" value="101" />
-    <option name="width" value="2155" />
-    <option name="height" value="1200" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1048" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -212,27 +202,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Technical-interview" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Technical-interview" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Technical-interview" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Technical-interview" type="462c0819:PsiDirectoryNode" />
-              <item name="9 需要会手撕的代码部分" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Technical-interview" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Technical-interview" type="462c0819:PsiDirectoryNode" />
-              <item name="手写(n)" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -250,6 +219,22 @@
               <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
               <item name="每天的 code笔记" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="2020.01.30" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Technical-interview" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Technical-interview" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Technical-interview" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Technical-interview" type="462c0819:PsiDirectoryNode" />
+              <item name="手写(n)" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -305,30 +290,6 @@
     <configuration name="最大连续子序列.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/9 需要会手撕的代码部分/最大连续子序列.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
-    <configuration name="柯里化函数.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/每天的 code笔记/2020.02.06/柯里化函数.js" working-dir="$PROJECT_DIR$">
-      <method v="2" />
-    </configuration>
-    <configuration name="手写递归方法实现深拷贝.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/9 需要会手撕的代码部分/手写递归方法实现深拷贝.js" working-dir="$PROJECT_DIR$">
-      <method v="2" />
-    </configuration>
-    <configuration name="高级排序.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/手写(n)/高级排序.js" working-dir="$PROJECT_DIR$">
-      <method v="2" />
-    </configuration>
-    <configuration name="惰性单例模式.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/设计模式/单例模式/惰性单例模式.js" working-dir="$PROJECT_DIR$">
-      <method v="2" />
-    </configuration>
-    <configuration name="原型式继承.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/9 需要会手撕的代码部分/原型式继承.js" working-dir="$PROJECT_DIR$">
-      <method v="2" />
-    </configuration>
-    <configuration name="封装单向链表.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/数据结构/链表/封装单向链表.js" working-dir="$PROJECT_DIR$">
-      <method v="2" />
-    </configuration>
-    <configuration name="柯里化.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/每天的 code笔记/2019.11.21/柯里化.js" working-dir="$PROJECT_DIR$">
-      <method v="2" />
-    </configuration>
-    <configuration name="手写斐波那契.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/算法/手写斐波那契.js" working-dir="$PROJECT_DIR$">
-      <method v="2" />
-    </configuration>
     <configuration name="排序.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/算法/排序/排序.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
@@ -357,6 +318,9 @@
       <method v="2" />
     </configuration>
     <configuration name="单例模式透明.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/设计模式/单例模式/单例模式透明.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="柯里化函数.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/每天的 code笔记/2020.02.06/柯里化函数.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <configuration name="实现一个链表.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/9 需要会手撕的代码部分/实现一个链表.js" working-dir="$PROJECT_DIR$">
@@ -389,6 +353,9 @@
     <configuration name="快排.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/9 需要会手撕的代码部分/快排.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
+    <configuration name="手写递归方法实现深拷贝.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/9 需要会手撕的代码部分/手写递归方法实现深拷贝.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
     <configuration name="检测一个数是否为质数.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/数据结构/哈希表/检测一个数是否为质数.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
@@ -419,7 +386,25 @@
     <configuration name="封装图.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/数据结构/图/封装图.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
+    <configuration name="高级排序.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/手写(n)/高级排序.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
     <configuration name="手写链表.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/数据结构/手写链表.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="惰性单例模式.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/设计模式/单例模式/惰性单例模式.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="原型式继承.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/9 需要会手撕的代码部分/原型式继承.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="封装单向链表.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/数据结构/链表/封装单向链表.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="柯里化.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/每天的 code笔记/2019.11.21/柯里化.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="手写斐波那契.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/算法/手写斐波那契.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <configuration name="sleep.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/手写(n)/sleep.js" working-dir="$PROJECT_DIR$">
@@ -531,6 +516,7 @@
       <workItem from="1583928059002" duration="3031000" />
       <workItem from="1583978829669" duration="4422000" />
       <workItem from="1583991788503" duration="202000" />
+      <workItem from="1584456012440" duration="127000" />
     </task>
     <task id="LOCAL-00001" summary="add 2019//11/18 task">
       <created>1574062224101</created>
@@ -763,17 +749,23 @@
       <option name="project" value="LOCAL" />
       <updated>1583682742999</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="add 2020/03/17  拿到offer后的html总结">
+      <created>1584456067010</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1584456067010</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="377874000" />
+    <option name="totallyTimeSpent" value="378001000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2122" y="119" width="1137" height="776" extended-state="0" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2090909" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18481848" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -817,7 +809,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add 2019/12/07  task" />
     <MESSAGE value="add 2020/01/29  总结归纳 css 知识点" />
     <MESSAGE value="add 2020/02/04  完成 变量类型俄航计算 原型和原型链的 知识点总结" />
     <MESSAGE value="add 2020/02/04  完成 浅拷贝和深拷贝 作用域和闭包 ES6学到异步解决方案那里 明天继续" />
@@ -842,7 +833,8 @@
     <MESSAGE value="add 2020/03/02  加油！" />
     <MESSAGE value="add 2020/03/04  加油！" />
     <MESSAGE value="add 2020/03/08  加油！" />
-    <option name="LAST_COMMIT_MESSAGE" value="add 2020/03/08  加油！" />
+    <MESSAGE value="add 2020/03/17  拿到offer后的html总结" />
+    <option name="LAST_COMMIT_MESSAGE" value="add 2020/03/17  拿到offer后的html总结" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1121,6 +1113,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/9 需要会手撕的代码部分/手写一个迭代器(Iterator).js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/9 需要会手撕的代码部分/深拷贝的实现方式.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/9 需要会手撕的代码部分/发布订阅模式.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="846">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/9 需要会手撕的代码部分/柯里化函数.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/9 需要会手撕的代码部分/观察者模式例子.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="486">
@@ -1142,50 +1161,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/9 需要会手撕的代码部分/深拷贝的实现方式.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/9 需要会手撕的代码部分/发布订阅模式.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/9 需要会手撕的代码部分/快排.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
+        <state relative-caret-position="450">
           <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/9 需要会手撕的代码部分/实现一个EventListener类，包含on，off，emit方法.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
+        <state relative-caret-position="108">
           <caret line="6" column="6" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/9 需要会手撕的代码部分/手写一个迭代器(Iterator).js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="19" lean-forward="true" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/9 需要会手撕的代码部分/柯里化函数.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/手写(n)/bind.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
+        <state relative-caret-position="306">
           <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
