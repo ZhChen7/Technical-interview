@@ -1,7 +1,7 @@
-// function getnum(num) {
-//     if(num<=1) return 1
-//     return getnum(num-1)+getnum(num-2)
-// }
+function getnum(num) {
+    if(num<=1) return 1
+    return getnum(num-1)+getnum(num-2)
+}
 
 console.log(getnum(2))
 

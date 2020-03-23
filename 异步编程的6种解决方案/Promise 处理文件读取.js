@@ -10,7 +10,6 @@ const readfile = function (filename) {
     })
 }
 
-
 readfile('./01.txt')
     .then(value => {
         console.log(value)
@@ -23,5 +22,5 @@ readfile('./01.txt')
     .then(value => {
         console.log(value)
     }).catch(reason => {
-        console.log(reason)
+    console.log(reason)
 })

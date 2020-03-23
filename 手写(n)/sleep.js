@@ -4,7 +4,6 @@ function sleep(time) {
     })
 }
 
-
 sleep(1000).then(value=>{
     console.log('11111')
 })
