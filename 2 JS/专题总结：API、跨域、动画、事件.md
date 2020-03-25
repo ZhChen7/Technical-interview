@@ -1,4 +1,4 @@
-## 面试专题总结： API、跨域、动画、事件
+#### 面试专题总结： API、数组、跨域、动画、事件
 
 > 希望读者依此构建自己的知识树（思维导图）
 >
@@ -10,40 +10,28 @@
 >
 > github地址: [点击](https://github.com/ZhChen7)
 
-> 此篇 js - 【jsAPI、跨域、动画、事件】 知识点： 全部弄懂了，面试很容易。
+> 此篇 js - 【API、数组、跨域、动画、事件】 知识点： 全部弄懂了，面试很容易。
 
 
 
 ### 1、数组
 
 - 改变原数组的API
-
   1. push()
-
   2. unshift()
-
   3. pop()
-
   4. shift()
-
   5. reverse()
-
   6. splice(index, count, value1, value2....)
      - 从索引位index处删除count个元素，插入value1, value2等元素，返回被删除的元素组成的新数组(改变原数组)
-
   7. sort()
-
 - 不改变原数组的API
-
   1. join(value)
      - 将数组用value连接为字符串，返回被连接后的字符串(不改变原数组)
      - 将数组用value连接为字符串，返回被连接后的字符串(不改变原数组)
-
   2. 获取子数组，包含原数组索引start的值到索引end的值，不包含end，返回获取的子数组(不改变原数组)
-
   3. toString()
      - 将数组中的元素用逗号拼接成字符串，返回拼接后的字符串(不改变原数组)
-
   4. indexOf(value)
      - 从索引为0开始，检查数组中是否包含有value，有则返回匹配到的第一个索引，没有则返回-1(不改变原数组)
   5. lastIndexOf(value)
@@ -112,7 +100,7 @@
 
   - ES5写法
 
-    ~~~js
+    ```js
     const currying = function (fn,...args) {
         if(args.length < fn.length){
             return function () {
@@ -122,14 +110,14 @@
             return fn(...args)
         }
     }
-    ~~~
+    ```
 
   - ES6 写法（箭头函数）
 
-    ~~~js
+    ```js
     const currying =(fn,...args)=>
         args.length < fn.length?(...argments)=> currying(fn,...args,...argments):fn(...args)
-    ~~~
+    ```
 
 
 
@@ -164,8 +152,6 @@
      - replace(newURL) 用新的文档替换当前文档
 5. document文档对象【DOM】
 
--
-
 
 
 ### 6、ajax 和 fetch
@@ -178,7 +164,7 @@
 
 - 封装原生Ajax请求
 
-  ~~~js
+  ```js
   function ajaxGet(url, callback) {
     var xhr = new XMLHttpRequest();
     xhr.open('GET', url, true);
@@ -190,7 +176,7 @@
       }
     }
   }
-  ~~~
+  ```
 
 
 
@@ -212,7 +198,7 @@
 
 - 用法
 
-  ~~~js
+  ```js
   fetch('http://example.com/movies.json')
     .then(function(response) {
       return response.json();
@@ -220,7 +206,7 @@
     .then(function(myJson) {
       console.log(myJson);
     });
-  ~~~
+  ```
 
   
 
@@ -360,14 +346,14 @@
 
      - 服务器端对于CORS的支持，主要就是通过设置Access-Control-Allow-Origin来进行的。如果浏览器检测到相应的设置，就可以允许Ajax进行跨域的访问
 
-       ~~~js
+       ```js
        //指定允许其他域名访问
        'Access-Control-Allow-Origin:*'//或指定域
        //响应类型
        'Access-Control-Allow-Methods:GET,POST'
        //响应头设置
        'Access-Control-Allow-Headers:x-requested-with,content-type'
-       ~~~
+       ```
 
 2. jsonp
 
@@ -388,14 +374,14 @@
 
    - 模拟
 
-     ~~~js
+     ```js
      <script type="text/javascript">
          function dosomething(jsondata){
              //处理获得的json数据
          }
      </script>
      <script src="http://example.com/data.php?callback=dosomething"></script>
-     ~~~
+     ```
 
    - 缺点
 
@@ -413,14 +399,14 @@
 
    - 例如：
 
-     ~~~js
+     ```js
      <iframe id = "iframe" src="http://example.com/b.html" onload = "test()"></iframe>
      <script type="text/javascript">
          document.domain = 'example.com';//设置成主域
          function test(){
          }
      </script>
-     ~~~
+     ```
 
    - 作用域
 
@@ -448,13 +434,13 @@
 
      - 接收数据
 
-       ~~~js
+       ```js
        window.addEventListener("message", receiveMessage, false) ;
        function receiveMessage(event) {
             var origin= event.origin;
             console.log(event);
        }
-       ~~~
+       ```
 
    - postMessage的使用场景
 
@@ -489,9 +475,7 @@
         3. 拿到服务器 响应 数据
         4. 将 响应 转发给客户端
 
-   
-
-   ##### CORS和JSONP对比
+   ##### CORS 和 JSONP 对比
 
    - CORS与JSONP相比，无疑更为先进、方便和可靠。
    - 区别
@@ -499,13 +483,121 @@
      2. 使用CORS，开发者可以使用普通的XMLHttpRequest发起请求和获得数据，比起JSONP有更好的错误处理。
      3. JSONP主要被老的浏览器支持，它们往往不支持CORS，而绝大多数现代浏览器都已经支持了CORS）。
 
-   
 
-   
 
-   ### 9、动画
 
-   
+
+### 9、动画
+
+> requestanimationframe的出现替代setTimeout完成动画。
+
+- setTimeout
+  - setTimeout 其实就是通过设置一个间隔时间来不断的改变图像的位置，从而达到动画效果的。但利用seTimeout实现的动画在某些低端机上会出现卡顿、抖动的现象。导致setTimeout的执行步调和屏幕的刷新步调不一致，从而引起丢帧现象。
+  - 原因
+    1. setTimeout的执行时间并不是确定的。setTimeout 任务被放进了异步队列中，只有当主线程上的任务执行完以后，才会去检查该队列里的任务是否需要开始执行，因此 setTimeout 的实际执行时间一般要比其设定的时间晚一些。
+    2. 刷新频率受屏幕分辨率和屏幕尺寸的影响，因此不同设备的屏幕刷新频率可能会不同，而 setTimeout只能设置一个固定的时间间隔，这个时间不一定和屏幕的刷新时间相同。
+- requestanimationframe
+  - html5 为了满足高性能动画的需求而提供的API，表意是请求动画帧。
+
+
+
+#### requestanimationframe相比setTimeout
+
+- 优势
+  1. 与setTimeout相比，requestAnimationFrame最大的优势是由系统来决定回调函数的执行时机。
+  2. 它能保证回调函数在屏幕每一次的刷新间隔中只被执行一次，这样就不会引起丢帧现象，也不会导致动画出现卡顿的问题。
+
+
+
+
+
+### 10、事件
+
+- 事件流
+
+  事件流描述的是从页面中接收事件的顺序，IE和Netscape提出来差不多完全相反的事件流的概念，IE事件流是事件冒泡流，Netscape事件流是事件捕获流。
+
+- DOM事件级别
+
+  - DOM0事件
+
+    - 定义
+
+      通过文档对象（document）获取元素引用，使用DOM0级方法指定的事件处理程序被认为是元素的方法，处理程序是在元素的作用域进行的，程序中this是引用的是当前元素。
+
+    - 3个特点
+
+      1. 触发时机：DOM0级的事件处理程式只能在事件冒泡阶段触发。
+
+      2. 每个属性只能绑定一个事件
+
+      3. this指针的指向
+
+         用DOM0级的方式绑定事件是在元素对象的作用域内运行，因此在事件函数内的this属性不是引用全局对象，而是引用当前元素对象
+
+  - DOM2事件
+
+    - 定义
+
+      ’DOM2级事件’定义了两个方法，用于处理指定和删除事件处理程序的操作：addEventListener()和removeEventListener();所有的DOM节点都包含这两种方法。
+
+    - DOM2级事件规定的事件流包括三个阶段
+
+      - 事件捕获阶段
+      - 处于目标阶段
+      - 事件冒泡阶段
+
+    - 优点
+
+      可以添加多个事件处理程序
+
+  - DOM3级
+
+    - DOM3级事件就是在DOM2基础上增加了更多的事件类型
+
+    - UI事件，当用户与页面上的元素交互时触发，如：load、scroll
+
+      焦点事件，当元素获得或失去焦点时触发，如：blur、focus
+
+      鼠标事件，当用户通过鼠标在页面执行操作时触发如：dbclick、mouseup
+
+      滚轮事件，当使用鼠标滚轮或类似设备时触发，如：mousewheel
+
+      文本事件，当在文档中输入文本时触发，如：textInput
+
+      键盘事件，当用户通过键盘在页面上执行操作时触发，如：keydown、keypress
+
+      合成事件，当为IME（输入法编辑器）输入字符时触发，如：compositionstart
+
+      变动事件，当底层DOM结构发生变化时触发，如：DOMsubtreeModified
+
+- 机制
+
+  1. 冒泡机制
+
+     事件会从最内层的元素开始发生，一直向上传播，直到document对象。
+
+  2. 捕获机制
+
+     网景提出另一种事件流名为事件捕获(event capturing)。与事件冒泡相反，事件会从最外层开始发生，直到最具体的元素。
+
+- 事件代理
+
+  - 定义
+
+    JavaScript高级程序设计上讲：事件委托就是利用事件冒泡，只指定一个事件处理程序，就可以管理某一类型的所有事件。
+
+  - 关键
+
+    Event对象提供了一个属性叫target，可以返回事件的目标节点，我们成为事件源
+
+  - 适合用事件委托的事件
+
+    click，mousedown，mouseup，keydown，keyup，keypress
+
+  - 不合适
+
+    mousemove，每次都要计算它的位置，非常不好把控，在不如说focus，blur之类的，本身就没用冒泡的特性，自然就不能用事件委托了
 
 
 

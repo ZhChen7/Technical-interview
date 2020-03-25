@@ -7,10 +7,8 @@
   <component name="ChangeListManager">
     <list default="true" id="c638edbe-dacf-4616-94ab-d340e19b91b1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/异步编程的6种解决方案/Promise 处理文件读取.js" beforeDir="false" afterPath="$PROJECT_DIR$/异步编程的6种解决方案/Promise 处理文件读取.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/手写(n)/sleep.js" beforeDir="false" afterPath="$PROJECT_DIR$/手写(n)/sleep.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/数据结构/图/封装图.js" beforeDir="false" afterPath="$PROJECT_DIR$/数据结构/图/封装图.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/算法/手写斐波那契.js" beforeDir="false" afterPath="$PROJECT_DIR$/算法/手写斐波那契.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2 JS/专题总结：API、跨域、动画、事件.md" beforeDir="false" afterPath="$PROJECT_DIR$/2 JS/专题总结：API、跨域、动画、事件.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2 JS/专题总结：手撕代码.md" beforeDir="false" afterPath="$PROJECT_DIR$/2 JS/专题总结：手撕代码.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -182,10 +180,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="1938" />
-    <option name="height" value="1048" />
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="1939" />
+    <option name="height" value="1049" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -223,11 +221,6 @@
             <path>
               <item name="Technical-interview" type="b2602c69:ProjectViewProjectNode" />
               <item name="Technical-interview" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Technical-interview" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Technical-interview" type="462c0819:PsiDirectoryNode" />
-              <item name="9 需要会手撕的代码部分" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -283,30 +276,6 @@
     <configuration name="最大连续子序列.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/9 需要会手撕的代码部分/最大连续子序列.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
-    <configuration name="快排.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/9 需要会手撕的代码部分/快排.js" working-dir="$PROJECT_DIR$">
-      <method v="2" />
-    </configuration>
-    <configuration name="实现一个链表.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/9 需要会手撕的代码部分/实现一个链表.js" working-dir="$PROJECT_DIR$">
-      <method v="2" />
-    </configuration>
-    <configuration name="闭包.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/每天的 code笔记/2020.01.31/闭包.js" working-dir="$PROJECT_DIR$">
-      <method v="2" />
-    </configuration>
-    <configuration name="十进制转二进制.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/数据结构/栈/十进制转二进制.js" working-dir="$PROJECT_DIR$">
-      <method v="2" />
-    </configuration>
-    <configuration name="柯里化函数.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/每天的 code笔记/2020.02.06/柯里化函数.js" working-dir="$PROJECT_DIR$">
-      <method v="2" />
-    </configuration>
-    <configuration name="二叉树的封装.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/数据结构/树/二叉树的封装.js" working-dir="$PROJECT_DIR$">
-      <method v="2" />
-    </configuration>
-    <configuration name="快排.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/9 需要会手撕的代码部分/快排.js" working-dir="$PROJECT_DIR$">
-      <method v="2" />
-    </configuration>
-    <configuration name="实现一个链表.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/9 需要会手撕的代码部分/实现一个链表.js" working-dir="$PROJECT_DIR$">
-      <method v="2" />
-    </configuration>
     <configuration name="二叉树的封装.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/数据结构/树/二叉树的封装.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
@@ -332,6 +301,9 @@
       <method v="2" />
     </configuration>
     <configuration name="柯里化.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/每天的 code笔记/2019.11.21/柯里化.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="快排.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/9 需要会手撕的代码部分/快排.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <configuration name="快排.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/9 需要会手撕的代码部分/快排.js" working-dir="$PROJECT_DIR$">
@@ -367,6 +339,9 @@
     <configuration name="反转链表.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/数据结构/链表/反转链表.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
+    <configuration name="实现一个链表.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/9 需要会手撕的代码部分/实现一个链表.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
     <configuration name="封装图.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/数据结构/图/封装图.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
@@ -397,7 +372,25 @@
     <configuration name="排序.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/算法/排序/排序.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
+    <configuration name="闭包.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/每天的 code笔记/2020.01.31/闭包.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
     <configuration name="排序.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/算法/排序/排序.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="十进制转二进制.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/数据结构/栈/十进制转二进制.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="柯里化函数.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/每天的 code笔记/2020.02.06/柯里化函数.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="二叉树的封装.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/数据结构/树/二叉树的封装.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="快排.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/9 需要会手撕的代码部分/快排.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="实现一个链表.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/9 需要会手撕的代码部分/实现一个链表.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <configuration name="sleep.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/手写(n)/sleep.js" working-dir="$PROJECT_DIR$">
@@ -516,7 +509,7 @@
       <workItem from="1584948079063" duration="1018000" />
       <workItem from="1584949377774" duration="894000" />
       <workItem from="1584950446155" duration="769000" />
-      <workItem from="1584951944104" duration="2344000" />
+      <workItem from="1584951944104" duration="2991000" />
     </task>
     <task id="LOCAL-00001" summary="add 2019//11/18 task">
       <created>1574062224101</created>
@@ -777,14 +770,21 @@
       <option name="project" value="LOCAL" />
       <updated>1584867918667</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="add 2020/03/23  拿到offer后的手撕代码总结">
+      <created>1584954357167</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1584954357167</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="384655000" />
+    <option name="totallyTimeSpent" value="385302000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21188119" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -830,7 +830,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add 2020/02/05  ES6知识点总结 异步编程的代码具体实现" />
     <MESSAGE value="add 2020/02/07  下午完成虚拟DON 的总结归纳 晚上继续vue归纳" />
     <MESSAGE value="add 2020/02/07  晚上完成 虚拟DON、以及vue面试要点、vue三要素、简单源码解析等" />
     <MESSAGE value="add 2020/02/09  完成vue总结" />
@@ -855,7 +854,8 @@
     <MESSAGE value="add 2020/03/18  拿到offer后的css总结" />
     <MESSAGE value="add 2020/03/19  拿到offer后的js总结" />
     <MESSAGE value="add 2020/03/22  拿到offer后的JavaScript总结" />
-    <option name="LAST_COMMIT_MESSAGE" value="add 2020/03/22  拿到offer后的JavaScript总结" />
+    <MESSAGE value="add 2020/03/23  拿到offer后的手撕代码总结" />
+    <option name="LAST_COMMIT_MESSAGE" value="add 2020/03/23  拿到offer后的手撕代码总结" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
