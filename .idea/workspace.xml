@@ -7,8 +7,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c638edbe-dacf-4616-94ab-d340e19b91b1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2 JS/专题总结：API、跨域、动画、事件.md" beforeDir="false" afterPath="$PROJECT_DIR$/2 JS/专题总结：API、跨域、动画、事件.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2 JS/专题总结：手撕代码.md" beforeDir="false" afterPath="$PROJECT_DIR$/2 JS/专题总结：手撕代码.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -25,7 +23,7 @@
         <entry file="file://$PROJECT_DIR$/设计模式/策略模式.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="288">
-              <caret line="16" lean-forward="true" selection-end-line="16" />
+              <caret line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
@@ -34,7 +32,7 @@
         <entry file="file://$PROJECT_DIR$/设计模式/命令模式.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="414">
-              <caret line="23" column="5" lean-forward="true" selection-end-line="31" />
+              <caret line="23" column="5" selection-end-line="31" />
             </state>
           </provider>
         </entry>
@@ -43,7 +41,7 @@
         <entry file="file://$PROJECT_DIR$/设计模式/代理模式/代理模式.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="396">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
             </state>
           </provider>
         </entry>
@@ -51,7 +49,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/设计模式/代理模式/图片预加载（代理模式）.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
+            <state relative-caret-position="180">
               <caret line="10" selection-start-line="10" selection-end-line="36" selection-end-column="28" />
             </state>
           </provider>
@@ -179,10 +177,10 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="y" value="-10" />
-    <option name="width" value="1939" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="140" />
+    <option name="y" value="198" />
+    <option name="width" value="1563" />
     <option name="height" value="1049" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -193,6 +191,17 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Technical-interview" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Technical-interview" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -210,17 +219,6 @@
               <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
               <item name="每天的 code笔记" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="2020.01.30" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Technical-interview" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Technical-interview" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -510,6 +508,7 @@
       <workItem from="1584949377774" duration="894000" />
       <workItem from="1584950446155" duration="769000" />
       <workItem from="1584951944104" duration="2991000" />
+      <workItem from="1585117565302" duration="99000" />
     </task>
     <task id="LOCAL-00001" summary="add 2019//11/18 task">
       <created>1574062224101</created>
@@ -777,16 +776,23 @@
       <option name="project" value="LOCAL" />
       <updated>1584954357167</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="add 2020/03/25  拿到offer后的框架总结">
+      <created>1585117618940</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1585117618940</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="385302000" />
+    <option name="totallyTimeSpent" value="385401000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="112" y="159" width="1250" height="839" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21188119" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26419753" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -830,7 +836,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add 2020/02/07  下午完成虚拟DON 的总结归纳 晚上继续vue归纳" />
     <MESSAGE value="add 2020/02/07  晚上完成 虚拟DON、以及vue面试要点、vue三要素、简单源码解析等" />
     <MESSAGE value="add 2020/02/09  完成vue总结" />
     <MESSAGE value="add 2020/02/09  完成vue react 跨平台框架 APP 知识点总结" />
@@ -855,7 +860,8 @@
     <MESSAGE value="add 2020/03/19  拿到offer后的js总结" />
     <MESSAGE value="add 2020/03/22  拿到offer后的JavaScript总结" />
     <MESSAGE value="add 2020/03/23  拿到offer后的手撕代码总结" />
-    <option name="LAST_COMMIT_MESSAGE" value="add 2020/03/23  拿到offer后的手撕代码总结" />
+    <MESSAGE value="add 2020/03/25  拿到offer后的框架总结" />
+    <option name="LAST_COMMIT_MESSAGE" value="add 2020/03/25  拿到offer后的框架总结" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1137,36 +1143,30 @@
     <entry file="file://$PROJECT_DIR$/设计模式/发布订阅模式.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/设计模式/适配器模式.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/设计模式/迭代器模式.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/设计模式/策略模式.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
-          <caret line="16" lean-forward="true" selection-end-line="16" />
+          <caret line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/设计模式/命令模式.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
-          <caret line="23" column="5" lean-forward="true" selection-end-line="31" />
+          <caret line="23" column="5" selection-end-line="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/设计模式/代理模式/代理模式.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/设计模式/代理模式/图片预加载（代理模式）.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
+        <state relative-caret-position="180">
           <caret line="10" selection-start-line="10" selection-end-line="36" selection-end-column="28" />
         </state>
       </provider>
@@ -1191,6 +1191,12 @@
           <caret line="21" column="5" lean-forward="true" selection-end-line="30" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/设计模式/适配器模式.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/设计模式/迭代器模式.js">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/异步编程的6种解决方案/指定多少毫秒后输出一个值.js">
       <provider selected="true" editor-type-id="text-editor" />
