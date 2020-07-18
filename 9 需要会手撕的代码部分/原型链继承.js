@@ -1,13 +1,17 @@
-function SuperType(name) {
-    this.name =name
-    this.color = ['red']
-}
-SuperType.prototype.say=function () {
-    console.log('xxxx')
+class SuperType {
+    constructor(name) {
+        this.name = name
+        this.color = ['red']
+    }
+    say() {
+        console.log('xxxx')
+    }
 }
 
-function SubType(name) {
-    this.age ='16'
+class SubType {
+    constructor(name) {
+        this.age = '16'
+    }
 }
 
 SubType.prototype = new SuperType()
