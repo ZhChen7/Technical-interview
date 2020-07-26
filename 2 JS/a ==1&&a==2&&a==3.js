@@ -6,7 +6,7 @@
 //             return i++
 //         }
 //     })()
-// }
+// } 
 
 // let a ={
 //     valueOf:(function () {
