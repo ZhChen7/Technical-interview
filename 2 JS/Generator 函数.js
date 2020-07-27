@@ -9,7 +9,6 @@ const readfile = function (filename) {
         })
     })
 }
-
 function* gen() {
     yield readfile('./01.txt')
     yield readfile('./02.txt')
@@ -17,9 +16,7 @@ function* gen() {
 }
 const result = gen()
 
-console.log(result.next());
-
-result.next().value.then(value => {
+result.next().value.then(value=>{
     console.log(value)
     return result.next().value
 }).then(value => {

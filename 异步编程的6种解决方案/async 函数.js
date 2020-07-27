@@ -10,21 +10,15 @@ const readfile = function (filename) {
     })
 }
 async function gen() {
-    try{
-        const f1=await readfile('./01.txt')
-        const f2=await readfile('./02.txt')
+    try {
+        const f1 = await readfile('./01.txt')
+        const f2 = await readfile('./02.txt')
         const f3 = await readfile('./03.txt')
         console.log(f1)
         console.log(f2)
         console.log(f3)
-    }catch (e) {
+    } catch (e) {
         console.log(e)
     }
 }
 gen()
-
-
-
-
-
-
