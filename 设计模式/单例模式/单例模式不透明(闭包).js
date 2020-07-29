@@ -6,12 +6,20 @@ singleTon.prototype.getName=function () {
     console.log(this.name)
 }
 
-singleTon.getInstance = (function () {
+singleTon.getInstance = (function(){
     let instance = null
-    return function (name) {
+    return function(name){
         return instance || (instance = new singleTon(name))
     }
 })()
+
+
+// singleTon.getInstance = (function () {
+//     let instance = null
+//     return function (name) {
+//         return instance || (instance = new singleTon(name))
+//     }
+// })()
 
 var a = singleTon.getInstance('a')
 var b = singleTon.getInstance('bbbbb')

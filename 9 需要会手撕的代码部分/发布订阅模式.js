@@ -1,13 +1,12 @@
-
 let pubSub = {
     list: {},
-    subscribe: function (key, fn) {  //订阅
+    subscribe: function (key, fn) { //订阅
         if (!this.list[key]) {
             this.list[key] = []
         }
         this.list[key].push(fn)
     },
-    publish: function (key, ...args) {  //发布
+    publish: function (key, ...args) { //发布
         for (let fn of this.list[key]) {
             fn.apply(this, args)
         }
@@ -44,4 +43,3 @@ pubSub.publish('launch', '12:00:00');
 
 pubSub.unSubscribe('onwork');
 pubSub.publish('onwork', '1222:00:00');
-
