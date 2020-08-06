@@ -1,4 +1,3 @@
-
 //
 // function inheritPrototype(subType,superType) {
 //     let prototype = superType.prototype
@@ -7,8 +6,8 @@
 // }
 
 
-function inheritPrototype(subType,superType) {
-    let prototype=superType.prototype
+function inheritPrototype(subType, superType) {
+    let prototype = onject(superType.prototype)
     prototype.constructor = subType
     subType.prototype = prototype
 }
@@ -16,11 +15,11 @@ function inheritPrototype(subType,superType) {
 
 function SuperType(name) {
     this.name = name
-    this.colors=['red']
+    this.colors = ['red']
 }
 
 function SubType(name) {
-    SuperType.call(this,name)
+    SuperType.call(this, name)
 }
 
-inheritPrototype(SubType,SuperType)
+inheritPrototype(SubType, SuperType)

@@ -6,24 +6,61 @@ function median(arr, left, right) {
     if (arr[center] > arr[right]) {
         swap(arr, center, right)
     }
+
     if (arr[left] > arr[right]) {
         swap(arr, left, right)
     }
-    swap(arr,center, right - 1)
+    swap(arr, center, right - 1)
     return arr[right - 1]
 }
+
 
 function swap(arr, m, n) {
     let temp = arr[m]
     arr[m] = arr[n]
-    arr[n] = temp
+    arr[n] = arr[m]
 }
 
+// function quickSort(arr) {
+//     if (arr.length <= 1) {
+//         return arr
+//     }
+//     return quickSortFun(arr, 0, arr.length - 1)
+// }
+
+
+// function quickSortFun(arr, left, right) {
+//     if (left < right) {
+//         let pivot = median(arr, left, right)
+//         let i = 0
+//         let j = right - 1
+//         while (true) {
+//             while (arr[++i] < pivot) {}
+//             while (arr[--j] > pivot && j > left) {}
+//             if (i < j) {
+//                 swap(arr, i, j)
+//             } else {
+//                 break
+//             }
+//         }
+//         if (i < right) {
+//             swap(arr, i, right - 1)
+//         }
+//         quickSortFun(arr, left, i - 1)
+//         quickSortFun(arr, i + 1, right)
+//     }
+//     return arr
+// }
+
+
+
+
+
 function quickSort(arr) {
-    if (arr.length <= 1) {
-        return arr
+    if (arr.length < 2) {
+        return
     }
-    return quickSortFun(arr, 0, arr.length - 1)
+    quickSortFun(arr, 0, arr.length - 1)
 }
 
 function quickSortFun(arr, left, right) {
@@ -31,21 +68,26 @@ function quickSortFun(arr, left, right) {
         let pivot = median(arr, left, right)
         let i = 0
         let j = right - 1
+
         while (true) {
             while (arr[++i] < pivot) {}
             while (arr[--j] > pivot && j > left) {}
+
             if (i < j) {
                 swap(arr, i, j)
             } else {
                 break
             }
         }
+
         if (i < right) {
             swap(arr, i, right - 1)
         }
+
         quickSortFun(arr, left, i - 1)
         quickSortFun(arr, i + 1, right)
+
     }
+
     return arr
 }
-console.log(quickSort([1, 4, 2, 3, 1]))

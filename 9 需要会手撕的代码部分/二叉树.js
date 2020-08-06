@@ -127,25 +127,34 @@ function bfs(root) {
 }
 
 // 按之字形顺序打印二叉树
-function zhiroot(root) {
-    let queue = [],
+function zhiRoot(root) {
+    let stack1 = [],
+        stack2 = [],
         result = []
-    if (root !== null) {
-        queue.push(root)
+
+    if (root != null) {
+        stack1.push(root)
     }
-    let pointer = 0
     let flag = 1
-    while (pointer < queue.length) {
-        let temp = queue[pointer++]
-        result.push(temp.key)
-        if (flag % 2 == 1) {
-            temp.right && queue.push(temp.right)
-            temp.left && queue.push(temp.left)
+    while (stack1.length != 0 || stack2.length != 0) {
+        const list = []
+        if (flag % 2) {
+            while (stack1.length != 0) {
+                let temp = stack2.pop()
+                list.push(temp.key)
+                temp.left && stack2.push(temp.left)
+                temp.right && stack2.push(temp.right)
+            }
         } else {
-            temp.left && queue.push(temp.left)
-            temp.right && queue.push(temp.right)
+            while (stack2.length != 0) {
+                let temp = stack1.pop()
+                list.push(temp.key)
+                temp.left && stack1.push(temp.left)
+                temp.right && stack1.push(temp.right)
+            }
         }
-        flag++
+        i++
+        result.push(list)
     }
     return result
 }
@@ -233,4 +242,3 @@ function getPath(root, target) {
 }
 
 //给定一棵二叉搜索树，请找出其中的第k小的结点。(中序遍历+ k小)
-

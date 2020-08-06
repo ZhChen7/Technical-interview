@@ -31,21 +31,31 @@ function Stack() {
     }
 }
 
-function dec2bin(decNumber) {
+// function dec2bin(decNumber) {
+//     let stack = new Stack()
+//     while (decNumber > 0) {
+//         stack.push(decNumber % 2)
+//         decNumber = Math.floor(decNumber / 2)
+//     }
+//     let binaryString = ''
+//     while (!stack.isEmpty()) {
+//         binaryString += stack.pop()
+//     }
+//     return binaryString
+// }
+
+// console.log(dec2bin(20))
+
+
+function dectobin(decNumber) {
     let stack = new Stack()
     while (decNumber > 0) {
         stack.push(decNumber % 2)
         decNumber = Math.floor(decNumber / 2)
     }
     let binaryString = ''
-    while (!stack.isEmpty()) {
+    while (!stack.isEmpty) {
         binaryString += stack.pop()
     }
     return binaryString
 }
-
-console.log(dec2bin(20))
-
-
-
-
