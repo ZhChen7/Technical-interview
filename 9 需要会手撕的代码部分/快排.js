@@ -9,7 +9,7 @@ function median(arr, left, right) {
     if (arr[left] > arr[right]) {
         swap(arr, left, right)
     }
-    swap(arr,center, right - 1)
+    swap(arr, center, right - 1)
     return arr[right - 1]
 }
 
